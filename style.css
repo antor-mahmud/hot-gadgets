@@ -15,3 +15,16 @@
 .see-all{
     color: orange;
 }
+.catagory{
+    position: relative;
+}
+.catagory::after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    height: 12px;
+    background-color: orange;
+    width: 80%;
+    border-radius: 8px;
+}
