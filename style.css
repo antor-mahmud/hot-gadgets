@@ -1,0 +1,17 @@
+.container{
+    margin-bottom: 50px;
+}
+.buy-now-button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 9px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#banner p{
+    color: grey;
+}
+.see-all{
+    color: orange;
+}
