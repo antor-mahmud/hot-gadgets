@@ -17,14 +17,26 @@
 }
 .catagory{
     position: relative;
+    margin-bottom: 50px;
 }
 .catagory::after{
     content: '';
     position: absolute;
     top: 50px;
-    left: 15px;
+    left: 12px;
     height: 12px;
     background-color: orange;
     width: 80%;
     border-radius: 8px;
+}
+.border-img{
+    /* border: 2px solid black;
+   
+    border-radius: 8px;
+    box-shadow: black; */
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px lightgrey;
+    margin-top: 40px;
 }
